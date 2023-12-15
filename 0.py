@@ -9,7 +9,7 @@ from os import listdir, path
 
 if not path.isfile('face_detection/detection/sfd/s3fd.pth'):
 	raise FileNotFoundError('Save the s3fd model to face_detection/detection/sfd/s3fd.pth \
-							before running this script!')
+							before running this script!缺文件就去https://github.com/Rudrabha/Wav2Lip下载.') #==========
 
 import multiprocessing as mp
 from concurrent.futures import ThreadPoolExecutor, as_completed
